@@ -1,4 +1,1 @@
-echo "<!-- TEST --> ";
-phpinfo();
-echo "<!-- TEST --> ";
-phpinfo();
+echo "<!-- HTML5 -->";
