@@ -1,2 +1,4 @@
 echo "<!-- TEST --> ";
 phpinfo();
+echo "<!-- TEST --> ";
+phpinfo();
